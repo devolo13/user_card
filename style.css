@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.outerBox {
+  margin: 50px 70px;
+  padding: 30px;
+  height: 230px;
+  border: 2px;
+  border-color: rgb(150, 149, 149);
+  border-style: solid;
+}
+.headerBar {
+  background-color: aqua;
+  height: 75px;
+  width: calc(100vw - 140px);
+  position: absolute;
+  margin-inline: 70px;
+}
+.user {
+  position: relative;
+  top: 12px;
+}
+.user img {
+  width: 60px;
+}
+.loc {
+  position: relative;
+  top: 20px;
+}
+.loc img {
+  height: 14px;
+}
+.bio {
+  position: relative;
+  top: 28px;
+}
+.editProfile {
+  position: relative;
+  top: 40px;
+}
+.editProfile img {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  top: 3px;
+}
